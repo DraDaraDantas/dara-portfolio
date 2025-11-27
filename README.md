@@ -1,12 +1,6 @@
-# verificar remotos
-git remote -v
-
-# atualizar URL do origin
-git remote set-url origin https://github.com/DraDaraDantas/dara-portfolio.git
-
-# verificar
-git remote -v
-
-# enviar branch main (se necessário)
-git push -u origin main
-# dara-portfolio
+git init
+git add .
+git commit -m "Versão corrigida para Vercel (configs em CommonJS)"
+git branch -M main
+git remote add origin https://github.com/DraDaraDantas/dara-portfolio.git
+git push -u origin main --force
